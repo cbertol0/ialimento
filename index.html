@@ -37,19 +37,14 @@
       --blue:#0A66CC;
 
       --green:#32C26B;
-      --green-soft:#F0FFF5;
 
       --orange:#F5A300;
-      --orange-soft:#FFF7EB;
 
       --red:#F04848;
-      --red-soft:#FFF1F1;
 
       --purple:#8A5CF6;
-      --purple-soft:#F6F0FF;
 
       --cyan:#42BFF5;
-      --cyan-soft:#EEF9FF;
 
     }
 
@@ -74,6 +69,10 @@
 
       font-family:'Raleway',sans-serif;
 
+      background:#0A66CC;
+
+      color:white;
+
     }
 
     body{
@@ -82,8 +81,6 @@
 
       justify-content:center;
       align-items:center;
-
-      background:#0A66CC;
 
     }
 
@@ -114,9 +111,6 @@
         calc(env(safe-area-inset-top) + 34px)
         24px
         18px;
-
-      border-bottom:
-        1px solid rgba(0,0,0,.06);
 
       position:relative;
       z-index:10;
@@ -229,39 +223,33 @@
 
     }
 
-    /* BACKGROUNDS */
+    /* COLORS */
 
     .hero-slide{
       background:#0A66CC;
     }
 
     .green{
-      background:var(--green-soft);
+      background:#32C26B;
     }
 
     .orange{
-      background:var(--orange-soft);
+      background:#F5A300;
     }
 
     .red{
-      background:var(--red-soft);
+      background:#F04848;
     }
 
     .purple{
-      background:var(--purple-soft);
+      background:#8A5CF6;
     }
 
     .cyan{
-      background:var(--cyan-soft);
+      background:#42BFF5;
     }
 
     /* HERO */
-
-    .hero{
-
-      color:white;
-
-    }
 
     .hero h1{
 
@@ -295,7 +283,7 @@
 
       font-weight:800;
 
-      opacity:.95;
+      opacity:.96;
 
       margin-bottom:34px;
 
@@ -305,7 +293,7 @@
 
     .card{
 
-      padding:10px 4px;
+      padding:6px 2px;
 
     }
 
@@ -341,8 +329,11 @@
 
       flex-shrink:0;
 
-      box-shadow:
-        0 10px 20px rgba(0,0,0,.10);
+      background:rgba(255,255,255,.18);
+
+      backdrop-filter:blur(8px);
+
+      border:1px solid rgba(255,255,255,.16);
 
     }
 
@@ -352,26 +343,6 @@
 
       font-size:2.8rem;
 
-    }
-
-    .green .icon-wrap{
-      background:var(--green);
-    }
-
-    .orange .icon-wrap{
-      background:var(--orange);
-    }
-
-    .red .icon-wrap{
-      background:var(--red);
-    }
-
-    .purple .icon-wrap{
-      background:var(--purple);
-    }
-
-    .cyan .icon-wrap{
-      background:var(--cyan);
     }
 
     /* TITLE */
@@ -386,7 +357,7 @@
 
       font-weight:900;
 
-      color:#111827;
+      color:white;
 
     }
 
@@ -400,7 +371,7 @@
 
       font-weight:800;
 
-      color:#374151;
+      color:white;
 
     }
 
