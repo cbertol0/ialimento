@@ -36,7 +36,7 @@
 
       --blue:#0A66CC;
 
-      --green:#32C26B;
+      --green:#35C46E;
 
       --orange:#F5A300;
 
@@ -217,7 +217,7 @@
 
       overflow-y:auto;
 
-      padding:34px 28px 130px;
+      padding:34px 30px 140px;
 
       scroll-snap-align:start;
 
@@ -230,7 +230,7 @@
     }
 
     .green{
-      background:#32C26B;
+      background:#35C46E;
     }
 
     .orange{
@@ -261,13 +261,13 @@
 
       font-weight:900;
 
-      margin-bottom:42px;
+      margin-bottom:44px;
 
     }
 
     .hero h2{
 
-      font-size:1.6rem;
+      font-size:1.65rem;
 
       font-weight:900;
 
@@ -277,15 +277,15 @@
 
     .hero p{
 
-      font-size:1.3rem;
+      font-size:1.28rem;
 
       line-height:1.95;
 
       font-weight:800;
 
-      opacity:.96;
-
       margin-bottom:34px;
+
+      opacity:.96;
 
     }
 
@@ -293,7 +293,7 @@
 
     .card{
 
-      padding:6px 2px;
+      padding:2px;
 
     }
 
@@ -329,11 +329,11 @@
 
       flex-shrink:0;
 
-      background:rgba(255,255,255,.18);
+      background:rgba(255,255,255,.16);
 
-      backdrop-filter:blur(8px);
+      border:1px solid rgba(255,255,255,.15);
 
-      border:1px solid rgba(255,255,255,.16);
+      backdrop-filter:blur(10px);
 
     }
 
@@ -349,7 +349,7 @@
 
     .title{
 
-      font-size:2.25rem;
+      font-size:2.1rem;
 
       line-height:1;
 
@@ -365,9 +365,9 @@
 
     .content{
 
-      font-size:1.34rem;
+      font-size:1.28rem;
 
-      line-height:2;
+      line-height:1.9;
 
       font-weight:800;
 
@@ -375,16 +375,44 @@
 
     }
 
+    .content p{
+      margin-bottom:26px;
+    }
+
     .content ul{
 
-      padding-left:26px;
+      padding-left:24px;
 
-      margin-top:24px;
+      margin-bottom:28px;
 
     }
 
     .content li{
+
       margin-bottom:18px;
+
+    }
+
+    .strong{
+
+      font-weight:900;
+
+    }
+
+    /* FOOTER */
+
+    .footer{
+
+      margin-top:46px;
+
+      font-size:1rem;
+
+      opacity:.9;
+
+      text-align:center;
+
+      font-weight:800;
+
     }
 
     /* DOTS */
@@ -443,19 +471,19 @@
     @media(max-width:390px){
 
       .hero h1{
-        font-size:2.4rem;
+        font-size:2.35rem;
       }
 
       .hero p{
-        font-size:1.18rem;
+        font-size:1.15rem;
       }
 
       .title{
-        font-size:1.9rem;
+        font-size:1.8rem;
       }
 
       .content{
-        font-size:1.18rem;
+        font-size:1.15rem;
       }
 
     }
@@ -498,14 +526,14 @@
 
   <div class="slider" id="slider">
 
-    <!-- HERO -->
+    <!-- PORTADA -->
 
     <section class="slide hero-slide">
 
       <div class="hero">
 
         <h1>
-          5 Claves<br>
+          Las 5 Claves<br>
           de la inocuidad<br>
           de los alimentos
         </h1>
@@ -513,13 +541,13 @@
         <h2>¿Quiénes somos?</h2>
 
         <p>
-          Somos el organismo municipal referente en seguridad e inocuidad alimentaria de Rosario.
+          Somos el organismo municipal referente en seguridad e inocuidad alimentaria de Rosario, comprometidos con la gestión de riesgos, la vigilancia alimentaria basada en evidencia científica y la protección de la salud de la comunidad.
         </p>
 
         <h2>¿Cuál es nuestra misión?</h2>
 
         <p>
-          Garantizar la inocuidad y calidad de los alimentos mediante vigilancia sanitaria y capacitación.
+          Garantizar la inocuidad y calidad de los alimentos en toda la cadena agroalimentaria de Rosario, mediante la fiscalización, vigilancia sanitaria y capacitación de manipuladores, promoviendo el cumplimiento de la normativa vigente.
         </p>
 
       </div>
@@ -539,20 +567,35 @@
           </div>
 
           <div class="title">
-            Mantener la limpieza
+            Mantener<br>
+            la limpieza
           </div>
 
         </div>
 
         <div class="content">
 
+          <p>
+            Los microorganismos peligrosos suelen estar presentes en el suelo, el agua, los animales y las personas, pudiendo ser transportados a través de las manos, paños de limpieza, celulares, utensilios, tablas de cortar y ropa de trabajo.
+          </p>
+
           <ul>
 
-            <li>Lávese las manos antes de preparar alimentos.</li>
+            <li>
+              Lávese las manos con agua y jabón antes de preparar alimentos, luego de manipular alimentos crudos, después de ir al baño y de sacar la basura.
+            </li>
 
-            <li>Lave y desinfecte superficies y equipos.</li>
+            <li>
+              Lave y desinfecte superficies y equipos utilizados en la preparación de alimentos.
+            </li>
 
-            <li>Proteja los alimentos de insectos y animales.</li>
+            <li>
+              Para la limpieza utilice detergente y agua caliente.
+            </li>
+
+            <li>
+              Proteja los alimentos y las áreas de cocina de insectos y animales.
+            </li>
 
           </ul>
 
@@ -575,22 +618,40 @@
           </div>
 
           <div class="title">
-            Separar crudos y cocidos
+            Separar alimentos crudos y cocidos
           </div>
 
         </div>
 
         <div class="content">
 
+          <p>
+            Los alimentos crudos, especialmente las carnes, pueden contener microorganismos peligrosos que pueden transferirse a otros alimentos durante la preparación y conservación.
+          </p>
+
+          <p class="strong">
+            Para evitar la contaminación cruzada:
+          </p>
+
           <ul>
 
-            <li>Separe carnes crudas de alimentos listos.</li>
+            <li>
+              Separe los alimentos crudos de los cocidos y de los listos para consumir.
+            </li>
 
-            <li>Use utensilios diferentes.</li>
+            <li>
+              Use equipos y utensilios diferentes, como cuchillos y tablas de cortar.
+            </li>
 
-            <li>Conserve alimentos en recipientes cerrados.</li>
+            <li>
+              Conserve los alimentos crudos en recipientes con tapa.
+            </li>
 
           </ul>
+
+          <p>
+            La contaminación cruzada es una de las principales causas de Enfermedades Transmitidas por Alimentos.
+          </p>
 
         </div>
 
@@ -618,15 +679,33 @@
 
         <div class="content">
 
+          <p>
+            Una correcta cocción, por encima de los 70°C, elimina la mayoría de los microorganismos peligrosos.
+          </p>
+
           <ul>
 
-            <li>Cocine completamente carnes y huevos.</li>
+            <li>
+              Cocine completamente los alimentos, especialmente carnes y huevo.
+            </li>
 
-            <li>Hierva sopas y guisos.</li>
+            <li>
+              Hierva alimentos como sopas y guisos para asegurarse de alcanzar los 70°C.
+            </li>
 
-            <li>Recaliente bien alimentos cocidos.</li>
+            <li>
+              Recaliente completamente los alimentos ya cocidos.
+            </li>
+
+            <li>
+              Evite consumir carne picada jugosa.
+            </li>
 
           </ul>
+
+          <p>
+            En Argentina el Síndrome Urémico Hemolítico afecta entre 300 y 400 niños al año.
+          </p>
 
         </div>
 
@@ -647,20 +726,38 @@
           </div>
 
           <div class="title">
-            Temperaturas seguras
+            Mantener temperaturas seguras
           </div>
 
         </div>
 
         <div class="content">
 
+          <p>
+            Los microorganismos se pueden multiplicar rápidamente si los alimentos se conservan a temperatura ambiente.
+          </p>
+
           <ul>
 
-            <li>Refrigere alimentos perecederos.</li>
+            <li>
+              Evite dejar alimentos cocinados a temperatura ambiente.
+            </li>
 
-            <li>Mantenga caliente la comida.</li>
+            <li>
+              Refrigere alimentos cocinados y perecederos.
+            </li>
 
-            <li>Respete la cadena de frío.</li>
+            <li>
+              Mantenga la comida caliente antes de servirla.
+            </li>
+
+            <li>
+              Descongele alimentos en heladera o microondas.
+            </li>
+
+            <li>
+              Mantenga la cadena de frío.
+            </li>
 
           </ul>
 
@@ -683,20 +780,38 @@
           </div>
 
           <div class="title">
-            Agua segura
+            Usar agua y materias primas seguras
           </div>
 
         </div>
 
         <div class="content">
 
+          <p>
+            Los alimentos, el agua e incluso el hielo pueden estar contaminados con microorganismos y sustancias químicas peligrosas.
+          </p>
+
           <ul>
 
-            <li>Use agua potable segura.</li>
+            <li>
+              Use agua segura o trátela para que lo sea.
+            </li>
 
-            <li>Lave frutas y verduras.</li>
+            <li>
+              Lave y sanitice frutas y verduras.
+            </li>
 
-            <li>Evite alimentos vencidos.</li>
+            <li>
+              Use 2 gotas de lavandina en 1 litro de agua.
+            </li>
+
+            <li>
+              Evite consumir alimentos vencidos.
+            </li>
+
+            <li>
+              Revise y limpie frecuentemente los tanques de agua.
+            </li>
 
           </ul>
 
